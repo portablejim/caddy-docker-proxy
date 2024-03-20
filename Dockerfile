@@ -6,7 +6,7 @@ FROM scratch
 ARG TARGETPLATFORM
 LABEL maintainer "Lucas Lorentz <lucaslorentzlara@hotmail.com>"
 
-EXPOSE 80 443 2019
+EXPOSE 80 443 443/udp 2019
 ENV XDG_CONFIG_HOME /config
 ENV XDG_DATA_HOME /data
 
